@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 11</title>
+        <meta charset="utf-8">
+        <script>
+            function cont() {
+                var n = parseFloat(document.f1.v1.value);
+                for(var i = 1; i <= n; i++){
+                    document.write(i+" ");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="" name="f1">
+            Valor : <input type="text" name="v1" /><br>
+        </form>
+        <button onclick="cont()">Entrar</button>
+    </body>
+</html>

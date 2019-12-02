@@ -1,0 +1,32 @@
+<html>
+	<head>
+<meta charset="utf-8">
+<script src="../jquery/jquery-1.11.2.js"></script>
+ 
+<script>
+$(document).ready(function() {
+ $("#b1").click(function() {
+	 $("#p1").text("novo texto");
+  });
+
+	$("#b2").click(function(){
+  $("#p2").html("<strong>novo texto html</strong>")
+	});
+
+ $("#b3").click(function() {
+	 $("#nome").val("novo conteudo");
+  });
+</script>
+</head>
+<body>
+<h1>altera o text,html e value</h1>
+<p id="p1">isso é um paragrafo</p>
+<p id="p2">isso é outro paragrafp</p>
+nome:<input type="text" id="alessandro"/><br><br>
+
+
+
+
+</body>
+
+</html>

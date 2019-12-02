@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 13</title>
+        <meta charset="utf-8">
+        <script>
+            function cont() {
+                var n = parseFloat(prompt("Insira um número: "));
+                while(n > 10 || n < 0){
+                    var n = parseFloat(prompt("Insira um número entre 0 e 10: "));
+                }
+                for(var i = 0; i <= 10; i++){
+                    var t = i * n;
+                    document.write(n + " x " + i +" = " + t +"<br>");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="cont()">Entrar</button>
+    </body>
+</html>

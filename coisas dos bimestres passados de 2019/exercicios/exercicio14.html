@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercício 14</title>
+        <meta charset="utf-8">
+        <script>
+            function cont() {
+                for(var i = 0; i <= 10; i++){
+                    document.write("Tabuada do "+ i + "<br>");
+                    for(var j = 1; j <= 10; j++){
+                        var t = i * j;
+                        document.write(i + " x " + j +" = " + t +"<br>");
+                    }
+                    document.write("<br>");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="cont()">Entrar</button>
+    </body>
+</html>
